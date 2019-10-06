@@ -13,7 +13,7 @@ end
 
 def add_element_to_start_of_array(array, element)
    array = [4,6,9,5]
-  array.unshift("wow!")
+  array.unshift("wow")
 end
 
 def remove_element_from_end_of_array(array)
@@ -27,7 +27,8 @@ def remove_element_from_start_of_array(array)
 end
 
 def retrieve_element_from_index(array, index_number)
-  
+   array = [4,6, "am",5]
+   array(2)
 end
 
 def retrieve_first_element_from_array(array)
